@@ -52,3 +52,4 @@ this.t.replaceChild(n,this.b)}
 function compare(f,c){f=f.value,c=c.value;var i=parseFloat(f.replace(/(\$|\,)/g,'')),n=parseFloat(c.replace(/(\$|\,)/g,''));if(!isNaN(i)&&!isNaN(n)){f=i,c=n}
 return(f<c?1:(f>c?-1:0))}
 return{sorter:sorter}}();
+
